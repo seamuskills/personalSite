@@ -1,0 +1,20 @@
+<html lang="en">
+    <head>
+        <title>{% block title %}{% endblock %} - §eamus' Code Zone</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="The story and projects of Seamus Donahue">
+        <meta name="author" content="Seamus Donahue">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="img/favicon.png">
+            <a href="/">Home</a>
+            <a href="/about">about</a>
+            <a href="/projects">projects</a>
+            <a href="/art">art</a>
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
