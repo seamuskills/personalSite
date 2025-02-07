@@ -1,3 +1,43 @@
 html{
+    background: linear-gradient(0deg, #33a, #7777ee);
+    min-height:100%;
+}
 
+
+body{
+    border-radius:1em;
+    margin:2.5em;
+    background-color: #ededed;
+    color: #303030;
+    padding: 0.75em;
+}
+
+
+.navbar{
+    display:inline-block;
+    padding:0.1em;
+    background-color: #D11A23;
+    font-size: 2vw;
+    color: #ffffff;
+    transform: skew(-10deg);
+}
+
+/* Try to make the topbar a reasonable size on mobile. */
+@media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 5vw;
+    }
+}
+
+.navbar img{
+    display:inline;
+    max-height: 1em;
+    padding:0.1em;
+    vertical-align: middle;
+    border-radius:100em;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
 }
