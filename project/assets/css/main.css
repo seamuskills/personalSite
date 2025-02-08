@@ -69,3 +69,8 @@ p{
     line-height: 3em;
     font-family: Akira, sans-serif;
 }
+
+a{
+    color: #144B90;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}about{% endblock %}
+
+{% block extraMeta %}
+<link rel="stylesheet" href="/css/about.css">
+{% endblock %}
+
+{% block content %}
+<h1 class="contentHeader">About Me</h1>
+<table cellspacing=0 class="aboutTable">
+    <tr>
+        <td>
+            <p class="smallHeader">Who I am</p>
+            <p>I am Seamus: a programmer, game developer and college student.</p>
+            <p>I loved video games growing up and I pondered improvements the developers could make.</p>
+            <p>Eventually, my interest in video games has made me want to create my own.</p>
+            <p>A kid gets typecasted to programmer.</p>
+        </td>
+        <td>
+            <p class="smallHeader">Starting From Scratch</p>
+            <p>I started learning to code with a website called <a href="scratch.mit.edu">scratch.</a></p>
+            <p>This website let me experiment with visual based block programming environment.</p>
+            <p>The lack of syntax memorization and pure logic helped teach me the basics of programming.</p>
+        </td>
+        <td>
+            <p class="smallHeader">Python</p>
+            <p>I was introduced to Python in middle school by a friend of mine.</p>
+            <p>Python let me create basic console applications and experiment with functions and variables in a code environment</p>
+            <p>Eventually I learned pygame, a library allowing me to make full graphical games; This taught me about basic game physics.</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="smallHeader">Game Making With Game Maker</p>
+            <p>During the time I was learning python, my brother introduced me to Game Maker: Studio (version 1.4) and much later Game Maker Studio 2</p>
+        </td>
+    </tr>
+</table>
+{% endblock %}

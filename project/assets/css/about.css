@@ -1,0 +1,21 @@
+.smallHeader{
+    background-color: #F5C211;
+    margin-left:0;
+    margin-right:0;
+    color:#303030;
+    width:100%;
+    text-align:center;
+    font-style:italic;
+    font-size:x-large;
+    line-height: 3em;
+    font-family: Akira, sans-serif;
+}
+
+.aboutTable{
+    table-layout: fixed;
+    width:100%;
+}
+
+td{
+    vertical-align:top;
+}
