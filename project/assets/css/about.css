@@ -2,6 +2,8 @@
     background-color: #F5C211;
     margin-left:0;
     margin-right:0;
+    margin-top:0;
+    border-width:0;
     color:#303030;
     width:100%;
     text-align:center;
@@ -18,4 +20,17 @@
 
 td{
     vertical-align:top;
+    border-left: #F5C211 solid;
+    border-right: #F5C211 solid;
+    padding:0;
+}
+
+td p{
+    margin: normal;
+}
+
+@media screen and (max-width: 600px) {
+    td p, .smallHeader{
+        font-size: small;
+    }
 }
