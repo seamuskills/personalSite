@@ -1,0 +1,17 @@
+.goBack{
+    margin: 0.2
+    display:inline-block;
+    text-align: left;
+    background-color: #F5C211;
+    border-width:0;
+    padding:0.2em;
+    color:#303030;
+    font-style:italic;
+    line-height: 3em;
+    font-family: Akira, sans-serif;
+}
+
+iframe{
+    width:100%;
+    height: 80vh;
+}

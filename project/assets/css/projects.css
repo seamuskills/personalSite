@@ -1,0 +1,33 @@
+.projectsGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33%, max-content));
+}
+
+.project{
+    background-color: #F5C211;
+    color: #030303;
+    margin:1em;
+}
+
+name, desc, src{
+    text-align:center;
+    width:100%;
+    display:inline-block;
+}
+
+name a, src a{
+    color: #030303;
+}
+
+type{
+    color: #6E3D94;
+    display: inline-block;
+    padding-left: 0.5em;
+    transform: skew(-15deg);
+}
+
+@media screen and (max-width: 600px){
+    .projectsGrid{
+        grid-template-columns: repeat(auto-fill, minmax(50%, max-content));
+    }
+}

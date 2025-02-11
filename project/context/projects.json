@@ -1,13 +1,13 @@
 [
-    {"name":"splatographer", "type":0, "link":"https://seamuskills.itch.io/splatographer", "desc":"Make simple Splatoon-Like Map images"},
-    {"name":"Pac-Man Rewrite", "type":1, "link":"projects/pac_man_rewrite/index", "desc":"Pacman, but in JS"},
-    {"name":"Note-Copy", "type":0, "link":"https://github.com/seamuskills/noteCopy", "desc":"Copy Text to a file, really easily"},
-    {"name":"Fishing Game", "type":1, "link":"projects/fishing/index", "desc":"Can you catch the fish?"},
-    {"name":"Decay", "type":0, "link":"https://github.com/seamuskills/decay-platformer", "desc":"Make it to the end before decaying away!"},
-    {"name":"Snowball-game", "type":0, "link":"https://github.com/seamuskills/snowball-game", "desc":"Avoid the rocks, collect the snow!"},
-    {"name":"Rpg-Combat", "type":0, "link":"https://github.com/seamuskills/rpg-combat-lite", "desc":"Testing a simple rpg combat system, this project is very old."},
-    {"name":"Asteroids", "type":1, "link":"projects/asteroids/index", "desc":"Classic Asteroids, imagined in js!"},
-    {"name":"Tank Game", "type":0, "link":"https://github.com/seamuskills/Python-tank-game", "desc":"Shoot at each other, break the terrain!"},
-    {"name":"Rain Animation", "type":1, "link":"projects/rain/index", "desc":"A simple configurable rain animation in JS"},
-    {"name":"Initiative Roller", "type":1, "link": "projects/initiative_roller/index", "desc":"A simple tool for rolling combat initiative for a ttrpg game."}
+  {"name":"Splatographer", "type":"Python", "src":"https://seamuskills.itch.io/splatographer", "desc":"Make simple Splatoon-Like Map images"},
+  {"name":"Pac-Man Rewrite", "type":"JS", "src": "https://github.com/seamuskills/pacman-js-rewrite", "host":"/hosted/pac_man_rewrite", "desc":"Pacman, but in JS"},
+  {"name":"Note-Copy", "type":"Python", "src":"https://github.com/seamuskills/noteCopy", "desc":"Copy Text to a file, really easily"},
+  {"name":"Fishing Game", "type":"JS", "src": "https://github.com/seamuskills/fishing-game", "host":"/hosted/fishing", "desc":"Can you catch the fish?"},
+  {"name":"Decay", "type":"Python", "src":"https://github.com/seamuskills/decay-platformer", "desc":"Make it to the end before decaying away!"},
+  {"name":"Snowball-game", "type":"Python", "src":"https://github.com/seamuskills/snowball-game", "desc":"Avoid the rocks, collect the snow!"},
+  {"name":"Rpg-Combat", "type":"Python", "src":"https://github.com/seamuskills/rpg-combat-lite", "desc":"Testing a simple rpg combat system, this project is very old."},
+  {"name":"Asteroids", "type":"JS", "src":"https://github.com/seamuskills/asteroids", "host":"/hosted/asteroids", "desc":"Classic Asteroids, imagined in js!"},
+  {"name":"Tank Game", "type":"Python", "src":"https://github.com/seamuskills/Python-tank-game", "desc":"Shoot at each other, break the terrain!"},
+  {"name":"Rain Animation", "type":"JS", "src":"https://github.com/seamuskills/js-rain", "host":"/hosted/rain", "desc":"A simple configurable rain animation in JS"},
+  {"name":"Initiative Roller", "type":"JS", "src":"https://github.com/seamuskills/initRoll", "host": "/hosted/initiative_roller", "desc":"A simple tool for rolling combat initiative for a ttrpg game."}
 ]

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Projects{% endblock %}
+
+{% block extraMeta %}
+<link rel="stylesheet" href="/css/projects.css">
+{% endblock %}
+
+{% block content %}
+<script src="/js/projects.js"></script>
+<h1 class="contentHeader">Projects</h1>
+<p>These are a lot of my finished projects! This isn't everything I've made but everything here has come to atleast some form of completion.</p>
+<div class="projectsGrid">
+    {% for project in projects %}
+        <div class="project">
+            <type>{{project.type}}</type><br>
+            <name onclick="goToProject('{{project.host}}')">{{project.name}}</name><br>
+            <src><a href={{project.src}}>Source Code</a></src><br>
+            <desc>{{project.desc}}</desc><br>
+            <br>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
