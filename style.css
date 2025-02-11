@@ -1,0 +1,62 @@
+/* https://poolors.com/8d92a6-030203-702c73-fbfbfb */
+#formatIndicator, #characterEntry, #addButton, #trash, #resultDiv, #rollButton, #upload, #download{
+    background-color: #702c73;
+    color: #fbfbfb;
+    border: #030203 2px solid;
+    border-radius: 0.2em;
+    width: fit-content;
+    padding:0.2em;
+    margin:0.2em;
+}
+
+#rollButton{
+    transition-duration: 0.15s;
+    font-weight: bolder;
+}
+
+#rollButton:hover{
+    background-color: #8d92a6;
+    color: #030203;
+}
+
+#rollButton:active{
+    background-color: #fbfbfb;
+    color: #030203;
+}
+
+#appendedInfo{
+    color: #fbfbfb;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 0.05em;
+}
+
+#characterEntry{
+    line-height: 1.3em;
+}
+
+#resultDiv p{
+    margin:0;
+}
+
+#addButton{
+    background-color: #8d92a6;
+    color: #030203;
+    font-weight: bolder;
+}
+
+#trash{
+    background-color: #030203;
+    color: #fbfbfb;
+    font-weight: bolder;
+}
+
+input{
+    background-color: #8d92a6;
+    color: #030203;
+    width:fit-content;
+}
+
+html{
+    background-color: #8d92a6;
+}

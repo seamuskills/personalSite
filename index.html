@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Initiative Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <p id="formatIndicator">Enter your characters and NPCs. The order here does not matter.<br>Name | Dex Mod | Non-Dex Mods</p>
+        <p id="appendedInfo">The player with the higher dex mod is granted a better initiative slot if rolls turn out the same. If those are equal than it is random.</p>
+        <div id="characterEntry"></div>
+        <button id="rollButton">Roll Initiative</button>
+        <div id="resultDiv">
+            <p>Current Initiative: </p>
+        </div>
+        <hr>
+        <button id="download">Export party as JSON</button>
+        <button id="upload">Import party JSON</button>
+        <script src="script.js"></script>
+    </body>
+</html>
