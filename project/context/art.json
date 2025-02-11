@@ -1,0 +1,12 @@
+[
+    {"name":"Stella (Mario Style)", "desc":"Pixel art of an original character set in the Splatoon universe. Modeled after the style of the game Super Mario Bros.", "src":"/img/art/stella mario.png"},
+    {"name":"Luna (Mario Style)", "desc":"Pixel art of an original character, and the twin of Stella. Created in the same style.", "src":"/img/art/Luna Mario.png"},
+    {"name":"Tidal Twins Logo Pixel Art", "desc": "The logo of the musical group that Stella and Luna form together. Logo design by BeetEmUp on the Splatcraft discord.", "src": "/img/art/logo_pixel.png"},
+    {"name":"Altair Pixel Art", "desc":"Pixel art of Altair as seen from Assassin's Creed 1", "src":"/img/art/assassin.png"},
+    {"name":"Sunset Landscape", "desc":"A simple landscape with a sunset in the background. I made this to experiment with larger art pieces.", "src":"/img/art/landscape sunsett.png"},
+    {"name":"Rain Scene", "desc":"A house being bombarded with rainfall. I made this because I really love how rain and rainy places look.", "src":"/img/art/rain scene.gif"},
+    {"name":"Mjolnir Pixel Art", "desc":"My own pixel art rendition of Master Chief from Halo: Combat Evolved. I wanted to adapt something more complex to pixel art, so I tried making this.", "src": "/img/art/mjolnirTest.png"},
+    {"name":"Minecraft Style Splatoon Launch Screen", "desc":"This was modeled after the splash screen that would appear on the Wii-U while loading Splatoon. It was made as an asset for a potential trailer for the Splatcraft Minecraft server.", "src":"/img/art/splat_loading.png"},
+    {"name":"Seamus Inkling", "desc":"A representation of what I might look like in the Splatoon universe. The original design came from a Minecraft skin a friend made for me. Over time this design came to be how I represent myself on the internet with the clothing being worn varying.", "src":"/img/art/seaink.png"},
+    {"name":"Callie icon", "desc":"A pixel art version of Callie from Splatoon. I created this to test how well I could recreate an existing character in detail, and I just like this character.", "src":"/img/art/caltest.png"}
+]

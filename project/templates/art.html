@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Art{% endblock %}
+
+{% block extraMeta %}
+<link rel="stylesheet" href="/css/art.css">
+{% endblock %}
+
+{% block content %}
+<script src="/js/art.js"></script>
+<div onclick="hide()" id="zoombg">
+    <img id="zoomimg"></img>
+</div>
+<h1 class="contentHeader">Art</h1>
+<p>I do not consider myself an artist; However I do make art. Here are some of the pieces I have made! Please do not repost any of these without proper credit.</p>
+<div class="artGrid">
+    {% for work in art %}
+        <div class="art">
+            <img onclick="zoom('{{work.src}}')" src="{{work.src}}">
+            <name>{{work.name}}</name><br>
+            <desc>{{work.desc}}</desc><br>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
