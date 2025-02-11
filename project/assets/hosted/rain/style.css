@@ -1,0 +1,8 @@
+html, button{
+	background: #222;
+}
+
+button{
+	color:#eee;
+	margin-bottom:1em
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<button type="button" onclick="intensity=Number(prompt('how often should rain spawn? (1-99 recommended 99 default)'))">change intensity</button>
+		<button type="button" onclick="speed=Number(prompt('rain speed (default 6)'))*(height/256)">change drop speed</button>
+		<button type="button" onclick="dropNumber=Number(prompt('how many drops per spawn? (default 2)'))">change drops per spawn</button>
+		<button type="button" onclick="floor=Number(prompt('floor height? (default 240)'))*(height/256)" >change floor height</button>
+		<button type="button" onclick="resize(Number(prompt('set width (height based on aspect ratio default 512)')))">change canvas size</button>
+		<button type="button" onclick="resize(canvas.parent().clientWidth)">auto size canvas</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+		<script src="script.js"></script>
+  </body>
+</html>
