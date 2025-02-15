@@ -15,8 +15,8 @@
     {% for project in projects %}
         <div class="project">
             <type>{{project.type}}</type><br>
-            <name onclick="goToProject('{{project.host}}')">{{project.name}}</name><br>
-            <src><a href={{project.src}}>Source Code</a></src><br>
+            <name onclick="goToProject('{{project.host}}')">{{project.name}}</name><hr>
+            <src><a href={{project.src}}>Source Code</a></src><hr>
             <desc>{{project.desc}}</desc><br>
             <br>
         </div>
