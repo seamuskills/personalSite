@@ -1,12 +1,17 @@
 .specialLink{
-    font-family: Akira, monospace;
     display:inline-block;
-    font-size: x-large;
     background: linear-gradient(to right,dodgerblue 50%, royalblue);
-    color: #e0e0e0;
-    margin-top:0.3em;
-    margin-left:0.5em;
+    margin:1vw;
     padding:0.2em;
     transform: skew(-15deg);
-    text-decoration: none;
+}
+
+.specialLink img{
+    width: 10vw;
+    height: 10vw;
+}
+
+.linksContainer{
+    align-content: center;
+    text-align: center;
 }
