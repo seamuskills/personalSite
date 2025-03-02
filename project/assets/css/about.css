@@ -16,6 +16,7 @@
 .aboutTable{
     table-layout: fixed;
     width:100%;
+    mix-blend-mode: color-burn;
 }
 
 td{

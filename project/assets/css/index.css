@@ -1,9 +1,10 @@
 .specialLink{
     display:inline-block;
-    background: linear-gradient(to right,dodgerblue 50%, royalblue);
+    background: linear-gradient(to right,royalblue 50%, #344fbd);
     margin:1vw;
     padding:0.2em;
     transform: skew(-15deg);
+    mix-blend-mode: color-burn;
 }
 
 .specialLink img{

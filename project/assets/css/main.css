@@ -17,7 +17,10 @@ html{
 body{
     border-radius:1em;
     margin:2.5em;
-    background-color: #ededed;
+    background-image: url("/img/concrete.jpg");
+    background-size: 10vw;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.07);
     color: #303030;
     padding: 0.75em;
     font-family: Russo, sans-serif;
@@ -26,6 +29,7 @@ body{
 p{
     font-size: 24px;
     text-align: center;
+    mix-blend-mode: color-burn;
 }
 
 .navbar{
@@ -58,10 +62,12 @@ p{
 }
 
 .contentHeader{
-    background-color: #3a3;
+    background-color: #117711;
+    mix-blend-mode:  color-burn;
     margin-left:0;
     margin-right:0;
-    color:#e0e0e0;
+    /*color:#e0e0e0;*/
+    color: #000;
     width:100%;
     text-align:center;
     font-style:italic;

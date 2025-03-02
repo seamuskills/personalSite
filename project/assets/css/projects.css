@@ -1,10 +1,11 @@
 .projectsGrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(33%, max-content));
+    mix-blend-mode: color-burn;
 }
 
 .project{
-    background-color: #F5C211;
+    background-color: #FF9900;
     color: #030303;
     margin:1em;
 }
@@ -20,7 +21,7 @@ name a, src a{
 }
 
 type{
-    color: #6E3D94;
+    color: #583176;
     display: inline-block;
     padding-left: 0.5em;
     transform: skew(-15deg);
