@@ -10,6 +10,9 @@
     align-content: center;
     text-align:center;
     padding:1em;
+    border-style: outset;
+    border-width: 1em;
+    border-color: #222;
 }
 
 .art img{
