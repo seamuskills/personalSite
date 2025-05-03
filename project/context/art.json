@@ -8,5 +8,6 @@
     {"name":"Mjolnir Pixel Art", "desc":"My own pixel art rendition of Master Chief from Halo: Combat Evolved. I wanted to adapt something more complex to pixel art, so I tried making this.", "src": "/img/art/mjolnirTest.png"},
     {"name":"Minecraft Style Splatoon Launch Screen", "desc":"This was modeled after the splash screen that would appear on the Wii-U while loading Splatoon. It was made as an asset for a potential trailer for the Splatcraft Minecraft server.", "src":"/img/art/splat_loading.png"},
     {"name":"Seamus Inkling", "desc":"A representation of what I might look like in the Splatoon universe. The original design came from a Minecraft skin a friend made for me. Over time this design came to be how I represent myself on the internet with the clothing being worn varying.", "src":"/img/art/seaink.png"},
-    {"name":"Callie icon", "desc":"A pixel art version of Callie from Splatoon. I created this to test how well I could recreate an existing character in detail, and I just like this character.", "src":"/img/art/caltest.png"}
+    {"name":"Callie icon", "desc":"A pixel art version of Callie from Splatoon. I created this to test how well I could recreate an existing character in detail, and I just like this character.", "src":"/img/art/caltest.png"},
+    {"name":"Bird Sprite", "desc":"A blue bird I made. No real reason, just wanted to.", "src":"/img/art/bird.png"}
 ]
