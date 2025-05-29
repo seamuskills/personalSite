@@ -9,5 +9,6 @@
   {"name":"Asteroids", "type":"JS", "src":"https://github.com/seamuskills/asteroids", "host":"/hosted/asteroids", "desc":"Classic Asteroids, imagined in js!"},
   {"name":"Tank Game", "type":"Python", "src":"https://github.com/seamuskills/Python-tank-game", "desc":"Shoot at each other, break the terrain!"},
   {"name":"Rain Animation", "type":"JS", "src":"https://github.com/seamuskills/js-rain", "host":"/hosted/rain", "desc":"A simple configurable rain animation in JS"},
-  {"name":"Initiative Roller", "type":"JS", "src":"https://github.com/seamuskills/initRoll", "host": "/hosted/initiative_roller", "desc":"A simple tool for rolling combat initiative for a ttrpg game."}
+  {"name":"Initiative Roller", "type":"JS", "src":"https://github.com/seamuskills/initRoll", "host": "/hosted/initiative_roller", "desc":"A simple tool for rolling combat initiative for a ttrpg game."},
+  {"name":"Nine Mens Morris", "type":"Godot", "src":"https://github.com/seamuskills/Mens-morris", "host": "/hosted/mens-morris", "desc":"A digital port of the game Nine Mens Morris"}
 ]
