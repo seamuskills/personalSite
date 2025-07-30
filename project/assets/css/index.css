@@ -16,3 +16,37 @@
     align-content: center;
     text-align: center;
 }
+
+#bigprofileimg{
+    width: 20%;
+    display: inline-block;
+}
+
+#welcome{
+    vertical-align: text-bottom;
+    text-align:left;
+    padding:1%;
+    display: inline-block;
+    width:75%;
+    line-height: 1.5em;
+}
+
+#welcomediv{
+    padding:3%;
+}
+
+@media screen and (max-width: 600px) {
+    #bigprofileimg {
+        visibility: hidden;
+        width:0;
+    }
+    #welcome{
+        padding:0;
+        text-align:center;
+        line-height: 1.5em;
+    }
+    #welcomediv{
+        text-align:center;
+        padding:0;
+    }
+}
